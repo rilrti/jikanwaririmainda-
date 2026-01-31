@@ -1,1 +1,67 @@
 
+/* css/style.css */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans JP", sans-serif;
+  background: #f5f6f8;
+  color: #111;
+
+  /* 画面中央配置の本体 */
+  display: flex;
+  align-items: center;   /* 縦中央 */
+  justify-content: center; /* 横中央 */
+}
+
+.container {
+  width: 100%;
+  max-width: 720px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 18px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+#result {
+  font-size: 32px;      /* ← ここを大きく */
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.now {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.main {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.sub {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.sub div {
+  margin-top: 4px;
+}
+
